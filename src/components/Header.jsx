@@ -28,12 +28,12 @@ const Header = () => {
         }
     }
     const btnClassName = 'border px-4 py-2 hover:bg-gray-800'
-    const linkClassName = 'px-4 py-2 hover:bg-gray-800'
+    const linkClassName = 'px-2 py-1 lg:px-4 lg:py-2 hover:bg-gray-800'
     return (
         <header className='h-[80px] bg-gray-900'>
             <nav className='container px-2 md:px-0 mx-auto h-full flex items-center justify-between'>
-                <Link to={"/"}><h2 className='text-4xl'>TODO APP</h2></Link>
-                <ul className='flex gap-4 items-center'>
+                <Link to={"/"}><h2 className='text-2xl lg:text-4xl'>TODO APP</h2></Link>
+                <ul className='flex gap-1 lg:gap-4 items-center'>
                     <Link to={"/"} className={`${linkClassName}`}>HOME</Link>
                     <Link to={"/profile"} className={`${linkClassName}`}>PROFILE</Link>
 
