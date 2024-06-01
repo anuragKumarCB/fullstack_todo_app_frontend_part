@@ -83,7 +83,7 @@ const Home = () => {
     const inputClassName = 'py-2 px-4 text-gray-600 w-full focus:outline-none rounded-md'
 
     return (
-        <div className='conatiner  mx-auto h-[90vh] mt-2 px-4 md:px-0'>
+        <div className='conatiner max-w-[900px] mx-auto h-[90vh] mt-2 px-4 md:px-0'>
             <section className='w-full bg-gray-900 flex flex-col items-center p-10 rounded-md'>
                 <form
                     onSubmit={addTask}
