@@ -8,12 +8,12 @@ const TodoItem = ({ id, title, description, isCompleted, taskStatusHandler, dele
 
     return (
         <div className='conatiner max-w-[900px] mx-auto mt-6'>
-            <section className='w-full bg-gray-900 flex justify-between gap-14 items-center py-4 px-10 rounded-md'>
+            <section className='w-full bg-gray-900 flex flex-col md:flex-row md:justify-between gap-4 md:gap-14 md:items-center py-4 px-10 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <span className='text-white'>{title}</span>
-                    <span className='text-gray-400'>{description}</span>
+                    <span className='text-white'>{title}something</span>
+                    <span className='text-gray-400'>{description}something</span>
                 </div>
-                <div className='flex gap-4'>
+                <div className='flex md:gap-4 justify-between'>
                     <input
                         className='w-[25px]'
                         onChange={() => taskStatusHandler(id)}
