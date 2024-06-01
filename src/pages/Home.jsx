@@ -77,7 +77,7 @@ const Home = () => {
         }
     }
 
-    if (!isAuthenticated) return <Navigate to={"/login"} />
+    // if (!isAuthenticated) return <Navigate to={"/login"} />
 
     const btnClassName = 'w-full py-2 bg-white font-semibold text-xl text-black mt-10 rounded-md'
     const inputClassName = 'py-2 px-4 text-gray-600 w-full focus:outline-none rounded-md'
