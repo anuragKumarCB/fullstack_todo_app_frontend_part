@@ -28,7 +28,7 @@ const Profile = () => {
     if (!isAuthenticated) return <Navigate to={"/login"} />
     const spanClassName = 'flex gap-4 items-baseline'
     return (
-        <div className='h-[90vh] flex justify-center items-center px-2 md:px-0'>
+        <div className='h-[90vh] flex justify-center items-center px-4 md:px-0'>
             <section className='w-[400px] bg-gray-900 flex flex-col justify-start gap-4 p-10 rounded-md font-semibold'>
                 <span className={`${spanClassName}`}>Name: <span className='text-2xl'>{user?.name}</span></span>
                 <span className={`${spanClassName}`}>Email: <span className='text-lg'>{user?.email}</span></span>

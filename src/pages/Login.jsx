@@ -43,8 +43,8 @@ const Login = () => {
     const inputClassName = 'py-2 px-4 text-gray-600 w-full focus:outline-none rounded-md'
 
     return (
-        <div className='h-[90vh] flex justify-center items-center px-2 md:px-0'>
-            <section className='w-[400px] bg-gray-900 flex flex-col items-center p-10 rounded-md px-2'>
+        <div className='h-[90vh] flex justify-center items-center px-4 md:px-0'>
+            <section className='w-[400px] bg-gray-900 flex flex-col items-center p-10 rounded-md'>
                 <form
                     onSubmit={submitHandler}
                     className='flex flex-col gap-6 items-center w-full mt-6'>
